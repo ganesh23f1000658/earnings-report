@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Quarterly Earnings Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RevealJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
+
+    <!-- Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <!-- Title Slide -->
+        <section>
+          <h2>Quarterly Earnings Report</h2>
+          <p>Presented by: Technical Consultant</p>
+          <p>Email: <strong>23f1000658@ds.study.iitm.ac.in</strong></p>
+          <aside class="notes">
+            Welcome the stakeholders and introduce the purpose of this quarterly earnings report.
+          </aside>
+        </section>
+
+        <!-- Markdown Slide -->
+        <section data-markdown>
+          <textarea data-template>
+# Key Highlights 📊
+
+- Revenue Growth **15% YoY**
+- New Customers: **+1200**
+- Operating Margin: **18%**
+- Cloud Adoption: **35% increase**
+
+Notes:
+- Use this slide to summarize the big wins in a bullet-point format.
+          </textarea>
+        </section>
+
+        <!-- Fragment Animations -->
+        <section>
+          <h3>Future Strategy</h3>
+          <ul>
+            <li class="fragment">Expand into new markets</li>
+            <li class="fragment">Invest in AI-driven analytics</li>
+            <li class="fragment">Optimize cloud costs</li>
+            <li class="fragment">Enhance security & compliance</li>
+          </ul>
+          <aside class="notes">
+            Each point will appear one at a time. Use this to control pacing and engagement.
+          </aside>
+        </section>
+
+        <!-- Code Sample -->
+        <section>
+          <h3>Example: Data API (JSON)</h3>
+          <pre><code class="json" data-trim data-line-numbers>
+{
+  "quarter": "Q2 2025",
+  "revenue": 125000000,
+  "expenses": 102500000,
+  "profit": 22500000
+}
+          </code></pre>
+          <aside class="notes">
+            Demonstrate how financial data can be structured and consumed by analytics systems.
+          </aside>
+        </section>
+
+        <!-- Math Equation -->
+        <section>
+          <h3>Financial Formula</h3>
+          <p>
+            Net Present Value (NPV):
+          </p>
+          <p>
+            \[
+              NPV = \sum_{t=1}^{n} \frac{C_t}{(1+r)^t} - C_0
+            \]
+          </p>
+          <aside class="notes">
+            Explain how NPV helps in evaluating long-term investment opportunities.
+          </aside>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- RevealJS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/math/math.js"></script>
+
+    <script>
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+      });
+    </script>
+  </body>
+</html>
